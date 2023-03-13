@@ -17,13 +17,13 @@ MATLAB code file contains the code used to generate the modulation spectra.  A s
 
 Required modules:
 
-numpy
-pandas
-seaborn
-pathlib
-scipy
-matplotlib
-pyfilterbank (included in repo)
-sklearn 
-tqdm ( found here: https://github.com/tqdm/tqdm)
-soundfile (found here: https://pypi.org/project/soundfile/ )
+numpy,
+pandas,
+seaborn,
+pathlib,
+scipy,
+matplotlib,
+pyfilterbank (included in repo),
+sklearn ,
+tqdm (found here: https://github.com/tqdm/tqdm),
+soundfile (found here: https://pypi.org/project/soundfile/)
