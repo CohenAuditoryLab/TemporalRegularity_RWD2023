@@ -1,0 +1,36 @@
+
+echo Standard Deviation of Intensity:
+for number from 1 to 42
+select number
+To Intensity... 200 0.0 yes
+lastframe = Get number of frames
+starttime = Get time from frame number... 1
+endtime = Get time from frame number... lastframe
+text$ = Get standard deviation... starttime endtime
+#Different start time and end time because intensity contour does not go from 0 to end of sound.
+printline 'text$'
+endfor
+
+printline Center of Gravity:
+for number from 1 to 42
+select number
+To Spectrum... yes
+text$ = Get centre of gravity... 2.0
+printline 'text$'
+endfor
+
+printline Mean Harmonicity:
+for number from 1 to 42
+select number
+To Harmonicity (cc)... 0.01 200 0.1 1.0
+text$ = Get mean... 0.0 0.0
+printline 'text$'
+endfor
+
+printline Duration:
+for number from 1 to 42
+select number
+text$ = Get total duration
+printline 'text$'
+endfor
+
