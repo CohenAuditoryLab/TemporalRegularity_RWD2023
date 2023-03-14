@@ -33,8 +33,8 @@ set_size = cur_pair.shape[0]
 
 filepath = "Your\\Cool\\Filepath\\Here" 
     
-vocal_foldername = PureWindowsPath(filepath + "\\GitHub\\TemporalRegularity_RWD2023\\\\Examples\\Vocal Examples\\")
-vocpairfile =  PureWindowsPath(filepath + "\\GitHub\\TemporalRegularity_RWD2023\\\\Examples\\Example_pairs_list.mat") 
+vocal_foldername = PureWindowsPath(filepath + "\\GitHub\\TemporalRegularity_RWD2023\\\\Examples\\Noise Examples\\")
+vocpairfile =  PureWindowsPath(filepath + "\\GitHub\\TemporalRegularity_RWD2023\\\\Examples\\Example PairsList.mat") 
 clutterfoldername = PureWindowsPath(filepath + "\\GitHub\\TemporalRegularity_RWD2023\\Examples\\Clutter Examples")
 unpack_pairs = io.loadmat(vocpairfile) 
 
