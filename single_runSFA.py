@@ -2,7 +2,7 @@
 """
 
 Exploratory code that allows several different conditions to be run on a few example
-pairs of vocalizations.  Code in the other ***_runSFA files is based on this core code.
+pairs of noise.  Code in the other ***_runSFA files is based on this core code.
 
 """
 
