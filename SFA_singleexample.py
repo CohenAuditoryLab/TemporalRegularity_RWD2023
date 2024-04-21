@@ -61,7 +61,7 @@ retain = np.size(X,0) #Grab as many slow features as there are o.g. features
 #NOTE above assumes that using non-standard form (var x obs instead of obs x var)
 
 
-(layer1, mean, variance, data_SS, weights) = getSF(X,'Layer 1',mode,retain,transform = True)
+(transformed, mean, variance, data_SS, weights) = getSF(X,'Layer 1',mode,retain,transform = True)
 
 
 #%% Plot result
@@ -79,7 +79,7 @@ feat2use = [0,1,2]
 #plot slowest feature
 for f in feat2use:
     plt.figure(sig+f+1)
-    plt.plot(t,layer1[f,:])
+    plt.plot(t,transformed[f,:])
     plt.title( mode + ' Feature # ' + str(f+1))
     
     

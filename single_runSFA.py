@@ -26,7 +26,7 @@ snr_values = np.array([1e-7, 1e-6, 1e-5, 1e-3, .1, 1.0, 10.0, 100.0, 1000.0])
 
 
 
-mode = 'ICA' #toggle what method to use
+mode = 'SFA' #toggle what method to use
 #gets these example pairs from the vocalizations that are included in this repo
 cur_pair = np.array([0, 53, 55, 57, 59, 68])
 set_size = cur_pair.shape[0]
